@@ -1,0 +1,2 @@
+source_lab,model,fine_tuning_mode,accuracy,macro_f1,trainable_params,notes
+Lab 5,distilbert-base-uncased,full_finetune,0.8764,0.8763991899697314,66955010,Transformer fine-tuning result
