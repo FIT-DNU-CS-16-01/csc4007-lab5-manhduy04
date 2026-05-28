@@ -3,9 +3,9 @@
   "seed": 42,
   "model_name": "distilbert-base-uncased",
   "fine_tuning_mode": "full_finetune",
-  "test_macro_f1": 0.8763991899697314,
-  "test_accuracy": 0.8764,
-  "best_val_macro_f1": 0.8843968740914754,
+  "test_macro_f1": 0.9099946912708784,
+  "test_accuracy": 0.91,
+  "best_val_macro_f1": 0.9083975230690238,
   "wandb_enabled": true,
   "wandb_mode": "online"
 }

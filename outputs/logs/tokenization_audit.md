@@ -3,7 +3,7 @@
 File này giúp kiểm tra tokenizer đang biến văn bản thành chuỗi token như thế nào.
 
 - Tokenizer/model: `distilbert-base-uncased`
-- `max_length`: `128`
+- `max_length`: `256`
 - Số dòng train/val/test: `22500` / `2500` / `25000`
 - Phân bố nhãn train: `{'0': 11250, '1': 11250}`
 
@@ -15,7 +15,7 @@ File này giúp kiểm tra tokenizer đang biến văn bản thành chuỗi toke
 - P90: `603.10`
 - P95: `800.10`
 - Max: `2222`
-- Tỷ lệ mẫu có khả năng bị cắt ngắn: `89.15%`
+- Tỷ lệ mẫu có khả năng bị cắt ngắn: `42.95%`
 
 ## Gợi ý đọc kết quả
 

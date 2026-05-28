@@ -5,20 +5,20 @@
 - Fine-tuning mode: `full_finetune`
 - Seed: `42`
 - Device: `cpu`
-- Max length: `128`
+- Max length: `256`
 - Trainable params: `66955010` / `66955010`
 
 ## Validation
 
-- Loss: `0.3207`
-- Accuracy: `0.8844`
-- Macro-F1: `0.8844`
+- Loss: `0.3242`
+- Accuracy: `0.9084`
+- Macro-F1: `0.9084`
 
 ## Test
 
-- Loss: `0.3273`
-- Accuracy: `0.8764`
-- Macro-F1: `0.8764`
+- Loss: `0.3009`
+- Accuracy: `0.9100`
+- Macro-F1: `0.9100`
 
 ## Notes
 

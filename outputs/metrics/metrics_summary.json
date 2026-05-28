@@ -5,11 +5,11 @@
   "device": "cpu",
   "model_name": "distilbert-base-uncased",
   "fine_tuning_mode": "full_finetune",
-  "max_length": 128,
+  "max_length": 256,
   "batch_size": 16,
   "epochs_requested": 3,
   "epochs_trained": 3,
-  "lr": 2e-05,
+  "lr": 1e-05,
   "weight_decay": 0.01,
   "warmup_ratio": 0.06,
   "grad_accum_steps": 1,
@@ -25,7 +25,7 @@
   },
   "tokenization_audit": {
     "tokenizer_name": "distilbert-base-uncased",
-    "max_length": 128,
+    "max_length": 256,
     "sample_size_for_length_audit": 2000,
     "train_rows": 22500,
     "val_rows": 2500,
@@ -40,24 +40,24 @@
     "token_length_p90": 603.1000000000001,
     "token_length_p95": 800.0999999999999,
     "token_length_max": 2222,
-    "truncated_count_estimate": 1783,
-    "truncated_rate_estimate": 0.8915,
+    "truncated_count_estimate": 859,
+    "truncated_rate_estimate": 0.4295,
     "empty_text_count_train": 0
   },
   "val": {
-    "loss": 0.32067049393774405,
-    "accuracy": 0.8844,
-    "macro_f1": 0.8843968740914754,
-    "precision_macro": 0.8844415812014228,
-    "recall_macro": 0.8844
+    "loss": 0.3241964799002003,
+    "accuracy": 0.9084,
+    "macro_f1": 0.9083975230690238,
+    "precision_macro": 0.9084441773222192,
+    "recall_macro": 0.9084
   },
   "test": {
-    "loss": 0.3272502811769201,
-    "accuracy": 0.8764,
-    "macro_f1": 0.8763991899697314,
-    "precision_macro": 0.8764098673588269,
-    "recall_macro": 0.8764
+    "loss": 0.30087075141804936,
+    "accuracy": 0.91,
+    "macro_f1": 0.9099946912708784,
+    "precision_macro": 0.9100967539631238,
+    "recall_macro": 0.91
   },
-  "generated_at": "2026-05-25T19:33:50.928496+00:00",
+  "generated_at": "2026-05-26T10:43:59.357087+00:00",
   "notes": "Raw text -> pretrained tokenizer -> pretrained Transformer -> classification head. Best checkpoint selected by validation macro-F1."
 }

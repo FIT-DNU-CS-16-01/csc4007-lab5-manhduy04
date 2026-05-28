@@ -1,6 +1,6 @@
 # Error analysis summary
 
-- Number of wrong predictions: `3090`
+- Number of wrong predictions: `2250`
 - Suggested minimum samples to inspect: `10`
 
 ## Gợi ý phân tích
